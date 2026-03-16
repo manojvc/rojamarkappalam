@@ -1,0 +1,49 @@
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code (keep common workspace configs)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Environment / Secrets ----
+.env
+.env.*
+
+# ---- Build outputs / caches (if you add tooling later) ----
+dist/
+build/
+out/
+.cache/
+.tmp/
+tmp/
+
+# Sass / preprocessors
+.sass-cache/
+*.map
+
+# Node (if you ever add bundlers/tools)
+node_modules/
+
+# Common static-site generators (only relevant if you use them)
+.jekyll-cache/
+_site/
+.hugo_build.lock
+
+# Local tooling artifacts
+*.swp
+*.swo
