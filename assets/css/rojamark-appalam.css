@@ -942,7 +942,7 @@ Video Style
 */
 
 .video {
-  background-image: url(../images/video-bg.jpg);
+  background-image: url(../images/video-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1206,7 +1206,7 @@ Contact Style
 */
 
 .contact {
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(../images/contact-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
