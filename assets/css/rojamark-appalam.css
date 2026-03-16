@@ -1776,7 +1776,7 @@ body {
     margin: 5px;
   }
   .header-area .main-nav .nav li:last-child {
-    display: none;
+    display: block;
   }
 }
 
